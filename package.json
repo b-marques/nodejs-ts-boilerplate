@@ -6,5 +6,11 @@
   "repository": "https://github.com/b-marques/nodejs-ts-boilerplate",
   "author": "Bruno Marques",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+      "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
 }
