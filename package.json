@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-ts-boilerplate",
+  "version": "0.1.0",
+  "description": "A NodeJs Typescript boilerplate.",
+  "main": "index.js",
+  "repository": "https://github.com/b-marques/nodejs-ts-boilerplate",
+  "author": "Bruno Marques",
+  "license": "MIT",
+  "private": false
+}
