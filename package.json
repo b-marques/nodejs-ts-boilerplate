@@ -11,6 +11,7 @@
     "clean": "shx rm -rf dist",
     "build": "tsc",
     "start": "node dist/index.js",
+    "dev": "nodemon --watch \"src/\" --exec \"ts-node src/index.ts\" -e ts",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix"
   },
@@ -20,8 +21,10 @@
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
     "husky": "^7.0.2",
+    "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
     "shx": "^0.3.3",
+    "ts-node": "^10.2.1",
     "typescript": "^4.4.2"
   },
   "husky": {
